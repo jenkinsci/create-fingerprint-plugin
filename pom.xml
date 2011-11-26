@@ -7,7 +7,7 @@
       <relativePath />
     </parent>
 
-    <artifactId>create-fingerprint-plugin</artifactId>
+    <artifactId>create-fingerprint</artifactId>
     <packaging>hpi</packaging>
     <version>1.1-SNAPSHOT</version>
     <name>Fingerprint Plugin</name>
@@ -22,9 +22,9 @@
     </developers>
 
   <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}.git</developerConnection>
-    <url>https://github.com/jenkinsci/${project.artifactId}</url>
+    <connection>scm:git:ssh://github.com/jenkinsci/create-fingerprint-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/create-fingerprint-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/create-fingerprint-plugin</url>
   </scm>
 
   <repositories>
