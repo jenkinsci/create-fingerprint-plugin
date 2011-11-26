@@ -9,7 +9,7 @@
 
     <artifactId>create-fingerprint</artifactId>
     <packaging>hpi</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>Fingerprint Plugin</name>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/Fingerprint+Plugin</url>
     <developers>
