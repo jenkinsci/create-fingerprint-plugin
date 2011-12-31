@@ -1,25 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>org.jenkins-ci.plugins</groupId>
-        <artifactId>plugin</artifactId>
-        <version>1.440</version>
-      <relativePath />
-    </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>1.440</version>
+    <relativePath />
+  </parent>
 
-    <artifactId>create-fingerprint</artifactId>
-    <packaging>hpi</packaging>
-    <version>1.2-SNAPSHOT</version>
-    <name>Fingerprint Plugin</name>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/Fingerprint+Plugin</url>
-    <developers>
-        <developer>
-            <id>marcsanfacon</id>
-            <name>Marc Sanfacon</name>
-            <email>marc.sanfacon@gmail.com</email>
-            <timezone>-5</timezone>
-        </developer>
-    </developers>
+  <artifactId>create-fingerprint</artifactId>
+  <packaging>hpi</packaging>
+  <version>1.2-SNAPSHOT</version>
+  <name>Fingerprint Plugin</name>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Fingerprint+Plugin</url>
+  <developers>
+    <developer>
+      <id>marcsanfacon</id>
+      <name>Marc Sanfacon</name>
+      <email>marc.sanfacon@gmail.com</email>
+      <timezone>-5</timezone>
+    </developer>
+  </developers>
 
   <scm>
     <connection>scm:git:ssh://github.com/jenkinsci/create-fingerprint-plugin.git</connection>
