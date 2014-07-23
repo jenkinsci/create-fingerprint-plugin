@@ -30,6 +30,7 @@ import hudson.model.BuildListener;
 import hudson.model.Descriptor;
 import hudson.tasks.Builder;
 import hudson.tasks.Fingerprinter;
+import hudson.tasks.BuildStepDescriptor;
 import hudson.model.AbstractProject;
 
 import org.kohsuke.stapler.DataBoundConstructor;
