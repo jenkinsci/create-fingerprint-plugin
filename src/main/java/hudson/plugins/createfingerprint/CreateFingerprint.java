@@ -30,6 +30,7 @@ import hudson.model.BuildListener;
 import hudson.model.Descriptor;
 import hudson.tasks.Builder;
 import hudson.tasks.Fingerprinter;
+import hudson.model.AbstractProject;
 
 import org.kohsuke.stapler.DataBoundConstructor;
 
@@ -64,9 +65,13 @@ public class CreateFingerprint extends Builder {
     }
 
     @Extension
-    public static final class DescriptorImpl extends Descriptor<Builder> {
+    public static final class DescriptorImpl extends BuildStepDescriptor<Builder> {
         public String getDisplayName() {
             return Messages.CreateFingerprint_DisplayName();
+        }
+
+        public boolean isApplicable(Class<? extends AbstractProject> jobType) {
+            return true;
         }
     }
 }
