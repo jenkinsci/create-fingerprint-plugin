@@ -29,14 +29,19 @@ import hudson.model.FreeStyleProject;
 import hudson.model.FreeStyleBuild;
 import hudson.tasks.Fingerprinter;
 import hudson.tasks.Fingerprinter.FingerprintAction;
-import org.jvnet.hudson.test.HudsonTestCase;
+import org.jvnet.hudson.test.JenkinsRule;
+
 import java.util.Collection;
 import java.io.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertTrue;
 
 /**
  * @author Marc Sanfacon
  */
-public class CreateFingerprintTest extends HudsonTestCase {
+public class CreateFingerprintTest extends JenkinsRule {
     public void testConfigRoundtrip() throws Exception {
 
         // Create a test file to create the fingerprint
